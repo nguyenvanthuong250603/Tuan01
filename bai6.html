@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    th,
+    td,
+    tr {
+      border: 1px solid pink;
+    }
+    th,
+    td,
+    tr {
+      padding: 10px;
+    }
+    #quanli {
+      border: 2px solid pink;
+      padding: 5px 10px;
+    }
+  </style>
+  <body>
+    <table id="quanli" style="background-color: pink">
+      <thead style="background-color: white">
+        <th>1</th>
+        <th>2</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="background-color: white">3</td>
+          <td style="padding: 0px">
+            <table style="border-collapse: collapse; background-color: yellow">
+              <thead>
+                <th style="padding: 0px">
+                  <table
+                    style="border-collapse: collapse; background-color: orange"
+                  >
+                    <thead>
+                      <th>4</th>
+                      <th>5</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>7</td>
+                        <td>8</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </th>
+                <th>6</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>9</td>
+                  <td>10</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
