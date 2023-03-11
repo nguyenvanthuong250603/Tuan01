@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+       
+        #header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #fff;
+        }
+       #header .bentrong_trai {
+            display: flex;
+            align-items: center;         
+        }
+        .con{
+            cursor: pointer;
+            
+        }
+        #header #bentrong_phai{
+            display: flex;
+            margin-left: 0px;
+        }
+        #bentrong_phai .con{
+            margin-left: 25px;
+        }
+        .anh1{
+            width: 100%;
+        }
+        .anhcha{
+            position: relative;
+            top:0px;
+        }
+        .anhcha .khoicon{
+            position: absolute;
+            top: 40%;
+            left: 25%;
+            transform: translate(-50%,-50%);
+        }
+       .phantren{
+           
+            display: flex;
+            justify-content: space-between;
+            height: 46px;
+       }
+        /* hayyyyyyyyyyyyy */
+         .ngoaitrai{
+           display: flex;
+            justify-content: space-around;
+            width: 40%;
+            line-height: 46px;
+            
+           
+        }
+        .border_con{
+        width: 100%;
+        text-align: center;
+        border-right:1px solid green ;
+        color: green;
+      }  
+      .ma{
+         width: 100%;
+        text-align: center;
+        color: green;
+      }
+        .aa:hover{
+            background-color: green;
+            color: white;
+        }
+        #ngoaiphai{
+            display: flex;
+            justify-content: center;
+        }
+        #content{
+             margin: 50px 150px;
+        }
+         #content .phananhduoi{
+            margin:50px 0 ;
+         }
+         #content .hang{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+         }
+         #content .chuyentrang{
+            margin-top: 100px;
+            display: flex;
+            justify-content: center;
+            height: 30px;
+         }
+         .chuyentrang .chuyentrang_con{
+            height: 30px;
+            width: 40px;
+            margin: 0 30px;
+            text-align: center;
+            line-height: 30px;
+            font-size: 20px;
+         }
+          .chuyentrang .chuyentrang_con:hover{
+            border-radius: 40% ;
+            background-color: whitesmoke;
+            color: green;
+            cursor: pointer;
+            align-items: center;
+         }
+       
+         
+         #footer {
+            display: flex;
+            justify-content: space-between;
+            height: 400px;
+            background-color: #000;
+           line-height: 40px;
+           
+         }
+         #footer .footer_con li,ul{
+            list-style: none;
+            color: #fff;
+           
+           
+         }
+         #footer .baotong{
+            width: 50%;
+            display: flex;
+            justify-content:space-around;
+            margin-top: 80px;
+            
+         }
+         .baotong2 .guiemail{
+            height: 50px;
+            width: 242.5px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid white;
+            
+         }
+         .baotong2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            color: white;
+         }
+         #footer .baotong2_con{
+            margin:10px 0 ;
+         }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="header">
+            <div id="bentrong_phai">
+            <div class="con">Shop</div>
+            <div class="con">Offers</div>
+            <div class="con">Our story</div>
+            <div class="con">Blog</div> </div>
+            <div class="conaaa"><img src="./1_ProductListing/Image 1 (21).png" alt=""></div>
+             <div class="bentrong_trai">
+            <div class="con"><input type="text" placeholder="Search product..." style="border-radius: 5px;height: 25px; border: 1px solid #000 ;opacity: 0.3;"></div>
+            <div class="con"><img src="./1_ProductListing/Button 1 (1).png" alt=""></div>
+            <div class="con"><img src="./1_ProductListing/Button 1.png" alt=""></div>
+            </div>
+            </div>
+        </div >
+        <div class="anhcha">
+        <div><img class="anh1" src="./1_ProductListing/Image 1.png" alt=""></div style="margin-right: 5px;height: 30px;">
+        <div class="khoicon" style="font-size: 35px;line-height: 44px;cursor: pointer;"><h1>Gift for your skin</h1>
+        <p style="margin-top: 20px;cursor: pointer;">Aliquip fugiat ipsum nostrud ex et eu incididunt <br> quis minim dolore excrpteyr voluptate</p>
+    </div>
+    </div> </div>
+    <div id="content">
+        <div class="phantren">
+            <div class="ngoaitrai"> 
+                
+            <div class="border_con aa ">  <p>All Products</p></div>
+             <div class="border_con aa "><p> Face</p></div>
+             <div class=" aa ma"> <p>Body</p></div>
+            </div> 
+            <div id="ngoaiphai">
+               <div style="border-bottom:1px solid #000 ;margin-right: 30px; "><i class="ti-search" style="cursor: pointer;"></i> <input type="text" placeholder="search product... " style="height: 46px;border:none; opacity: 0.3;margin-right:10px ;cursor: pointer;"></div>
+              <div >  <button style="height: 46px;background-color: whitesmoke;width: 100px; border-radius: 5px; cursor: pointer;">Sort by <i class="ti-align-center"></i></button>
+            </div></div>
+        </div>
+        <div class="phananhduoi">
+            <!-- hang 1 -->
+            <div class="hang">
+                <div class="ngang">
+                    <div><img src="./1_ProductListing/Image 1 (1).png" alt=""></div>
+                    <h2>Product title</h2>
+                    <p>Labore sint ipsum dolore mollit</p>
+                   <div style="height: 44px;margin-top: 10px;"> <i class="ti-server" style="margin-right: 5px;height: 30px;"></i><h3 style="display: inline-block;font-size: 35px;line-height: 44px;"> 32 </h3> <img src="./1_ProductListing/Button 1 (3).png" alt="" style="float: right;"></div> 
+        </div> <div class="ngang">
+            <div><img src="./1_ProductListing/Image 1 (2).png" alt=""></div>
+             <h2>Product title</h2>
+                    <p>Labore sint ipsum dolore mollit</p>
+                   <div style="height: 44px;margin-top: 10px;"> <i class="ti-server" style="margin-right: 5px;height: 30px;"></i><h3 style="display: inline-block;font-size: 35px;line-height: 44px;"> 22 </h3><img src="./1_ProductListing/Button 1 (3).png" alt="" style="float: right;"></div> 
+        </div> <div class="ngang">
+            <div><img src="./1_ProductListing/Image 1 (3).png" alt=""></div>
+             <h2>Product title</h2>
+                    <p>Labore sint ipsum dolore mollit</p>
+                   <div style="height: 44px;margin-top: 10px;"> <i class="ti-server" style="margin-right: 5px;height: 30px;"></i><h3 style="display: inline-block;font-size: 35px;line-height: 44px;"> 18 </h3><img src="./1_ProductListing/Button 1 (3).png" alt="" style="float: right;"></div> 
+        </div> 
+            <div class="ngang"><div><img src="./1_ProductListing/Image 1 (4).png" alt=""></div>
+             <h2>Product title</h2>
+                    <p>Labore sint ipsum dolore mollit</p>
+                   <div style="height: 44px;margin-top: 10px;"> <i class="ti-server" style="margin-right: 5px;height: 30px;"></i><h3 style="display: inline-block;font-size: 35px;line-height: 44px;"> 48 </h3><img src="./1_ProductListing/Button 1 (3).png "alt="" style="float: right;"></div> 
+        </div> 
+        </div>
+        <div class="hang">
+                <div class="ngang">
+                    <div><img src="./1_ProductListing/Image 1 (5).png" alt=""></div>
+                    <h2>Product title</h2>
+                    <p>Labore sint ipsum dolore mollit</p>
+                   <div style="height: 44px;margin-top: 10px;"> <i class="ti-server" style="margin-right: 5px;height: 30px;"></i><h3 style="display: inline-block;font-size: 35px;line-height: 44px;"> 31 </h3><img src="./1_ProductListing/Button 1 (3).png" alt="" style="float: right;"></div> 
+        </div> <div class="ngang">
+            <div><img src="./1_ProductListing/Image 1 (6).png" alt=""></div>
+             <h2>Product title</h2>
+                    <p>Labore sint ipsum dolore mollit</p>
+                   <div style="height: 44px;margin-top: 10px;"> <i class="ti-server" style="margin-right: 5px;height: 30px;"></i><h3 style="display: inline-block;font-size: 35px;line-height: 44px;"> 40 </h3><img src="./1_ProductListing/Button 1 (3).png" alt="" style="float: right;"></div> 
+        </div> <div class="ngang">
+            <div><img src="./1_ProductListing/Image 1 (7).png" alt=""></div>
+             <h2>Product title</h2>
+                    <p>Labore sint ipsum dolore mollit</p>
+                   <div style="height: 44px;margin-top: 10px;"> <i class="ti-server" style="margin-right: 5px;height: 30px;"></i><h3 style="display: inline-block;font-size: 35px;line-height: 44px;"> 26 </h3><img src="./1_ProductListing/Button 1 (3).png" alt="" style="float: right;"></div> 
+        </div> 
+            <div class="ngang"><div><img src="./1_ProductListing/Image 1 (8).png" alt=""></div>
+             <h2>Product title</h2>
+                    <p>Labore sint ipsum dolore mollit</p>
+                   <div style="height: 44px;margin-top: 10px;"> <i class="ti-server" style="margin-right: 5px;height: 30px;"></i><h3 style="display: inline-block;font-size: 35px;line-height: 44px;"> 18 </h3><img src="./1_ProductListing/Button 1 (3).png" alt="" style="float: right;"></div> 
+        </div> 
+        </div>
+         <div class="hang">
+                <div class="ngang">
+                    <div><img src="./1_ProductListing/Image 1 (9).png" alt=""></div>
+                    <h2>Product title</h2>
+                    <p>Labore sint ipsum dolore mollit</p>
+                   <div style="height: 44px;margin-top: 10px;"> <i class="ti-server" style="margin-right: 5px;height: 30px;"></i><h3 style="display: inline-block;font-size: 35px;line-height: 44px;"> 31 </h3><img src="./1_ProductListing/Button 1 (3).png" alt="" style="float: right;"></div> 
+        </div> <div class="ngang">
+            <div><img src="./1_ProductListing/Image 1 (10).png" alt=""></div>
+             <h2>Product title</h2>
+                    <p>Labore sint ipsum dolore mollit</p>
+                   <div style="height: 44px;margin-top: 10px;"> <i class="ti-server" style="margin-right: 5px;height: 30px;"></i><h3 style="display: inline-block;font-size: 35px;line-height: 44px;"> 40 </h3><img src="./1_ProductListing/Button 1 (3).png" alt="" style="float: right;"></div> 
+        </div> <div class="ngang">
+            <div><img src="./1_ProductListing/Image 1 (11).png" alt=""></div>
+             <h2>Product title</h2>
+                    <p>Labore sint ipsum dolore mollit</p>
+                   <div style="height: 44px;margin-top: 10px;"> <i class="ti-server" style="margin-right: 5px;height: 30px;"></i><h3 style="display: inline-block;font-size: 35px;line-height: 44px;"> 26 </h3><img src="./1_ProductListing/Button 1 (3).png" alt="" style="float: right;"></div> 
+        </div> 
+            <div class="ngang"><div><img src="./1_ProductListing/Image 1 (12).png" alt=""></div>
+             <h2>Product title</h2>
+                    <p>Labore sint ipsum dolore mollit</p>
+                   <div style="height: 44px;margin-top: 10px;"> <i class="ti-server" style="margin-right: 5px;height: 30px;"></i><h3 style="display: inline-block;font-size: 35px;line-height: 44px;"> 18 </h3><img src="./1_ProductListing/Button 1 (3).png" alt="" style="float: right;"></div> 
+        </div> 
+        </div>
+        <!-- Chuyen trang -->
+        <div class="chuyentrang">
+            <span class="chuyentrang_con"><</span>
+            <span class="chuyentrang_con">1</span>
+            <span class="chuyentrang_con">2</span>
+            <span class="chuyentrang_con">3</span>
+            <span class="chuyentrang_con">4</span>
+            <span class="chuyentrang_con">></span>
+        </div>       
+        </div>
+       
+    </div>
+     <div id="footer">
+            <div class="baotong">
+                <div class="footer_con">
+                    <ul><h3>About</h3>
+                        <li>Home</li>
+                        <li>Shop</li>
+                        <li>Our story</li>
+                        <li>Blog</li>
+                        <li ><select name="" id=""><option value="" >English</option></select></li>
+                    </ul>
+                </div>
+                <div class="footer_con">
+                    <ul> <h3>Help</h3>
+                        <li>Shipping & Retums</li>
+                        <li>Track Order</li>
+                        <li>FAQs</li>
+                    </ul>
+                </div>
+                <div class="footer_con">
+                    <ul> <h3>Contact</h3>
+                        <li>Phon:</li>
+                        <li>(+1) 1234567893</li>
+                        <li>Email:</li>
+                        <li><p>name@gmail.com</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="baotong2" ><div>
+                <div class="baotong2_con"><h3>Receive new promotions</h3></div>
+                <div class="baotong2_con"><p>Duis ea tempar commodo amet reprehende</p></div>
+                <div class="guiemail baotong2_con" ><i class="ti-email" ></i><input type="text" placeholder="  Input your email" style="height: 30px; border: 1px solid #000;background-color: #000;"><button style="height: 100%;background-color: green;">Subscribe</button></div>
+                <div class="baotong2_con"><img src="./1_ProductListing/Twitter 1.png" alt=""><img src="./1_ProductListing/Facebook 1.png" alt=""><img src="./1_ProductListing/LinkedIn 1.png" alt=""><img src="./1_ProductListing/YouTube 1.png" alt=""></div>
+            </div></div>
+        </div>
+</body>
+</html>
